@@ -1,0 +1,22 @@
+{
+    "editor.formatOnType": true,
+    "editor.formatOnPaste": true,
+    "C_Cpp.vcFormat.newLine.beforeOpenBrace.block": "sameLine",
+    "C_Cpp.vcFormat.newLine.beforeOpenBrace.function": "sameLine",
+    "C_Cpp.vcFormat.newLine.beforeOpenBrace.lambda": "sameLine",
+    "C_Cpp.vcFormat.newLine.beforeOpenBrace.namespace": "sameLine",
+    "C_Cpp.vcFormat.newLine.beforeOpenBrace.type": "sameLine",
+    "cmake.configureEnvironment": {
+        "PICO_SDK_PATH": "C:/pico-sdk"
+    },
+    "cmake.generator": "Unix Makefiles",
+    "files.associations": {
+        "iobank0.h": "c",
+        "sync.h": "c",
+        "gpio.h": "c",
+        "pico.h": "c",
+        "sio.h": "c",
+        "irq.h": "c",
+        "padsbank0.h": "c"
+    },
+}

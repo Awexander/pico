@@ -1,0 +1,48 @@
+{
+    "configurations": [
+        {
+            "name": "Win32",
+            "browse": {
+                "path": [
+                    "${workspaceFolder}/include/",
+                    "C:/pico-sdk/src/common/",
+                    "${PICO_SDK_PATH}/src/rp2_common/hardware_gpio",
+                    "${PICO_SDK_PATH}/src/rp2_common/hardware_irq",
+                    "${PICO_SDK_PATH}/src/rp2_common/hardware_structs",
+                    "${PICO_SDK_PATH}/src/rp2_common/hardware_uart",
+                    "${PICO_SDK_PATH}/src/rp2040/hardware_regs",
+                    "${PICO_SDK_PATH}/src/rp2040/hardware_structs",
+                    "${PICO_SDK_PATH}/src/rp2040/hardware_sync",
+                    "${PICO_SDK_PATH}/src/rp2040/hardware_timer",
+                    "${PICO_SDK_PATH}/src/rp2040/hardware_watchdog",
+                    "${PICO_SDK_PATH}/src/rp2040/pico/bootrom",
+                    "${PICO_SDK_PATH}/src/rp2040/pico/stdlib",
+                    "${PICO_SDK_PATH}/src/rp2040/pico/time"
+                ],
+                "limitSymbolsToIncludedHeaders": true,
+                "databaseFilename": ""
+            },
+            "includePath": [
+                "${workspaceFolder}/**",
+                "${workspaceFolder}/include/**",
+                "C:/pico-sdk/src/rp2_common",
+                "C:/pico-sdk/src/rp2040",
+                "C:/pico-sdk/src/rp2040/hardware_regs",
+                "C:/pico-sdk/src/rp2_common/pico_stdlib",
+                "C:/pico-sdk/src/rp2_common/pico_unique_id/include"
+            ],
+            "defines": [
+                "_DEBUG",
+                "UNICODE",
+                "_UNICODE"
+            ],
+            "windowsSdkVersion": "10.0.22000.0",
+            "compilerPath": "C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/12.2 rel1/bin/arm-none-eabi-g++.exe",
+            "cStandard": "c11",
+            "cppStandard": "c++17",
+            "intelliSenseMode": "gcc-arm",
+            "configurationProvider": "ms-vscode.cmake-tools"
+        }
+    ],
+    "version": 4
+}

@@ -1,0 +1,35 @@
+{
+    "configurations": [
+        {
+            "defines": [
+                "_DEBUG",
+                "UNICODE",
+                "_UNICODE"
+            ],
+            "compilerPath": "C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/12.2 rel1/bin/arm-none-eabi-gcc.exe",
+            "intelliSenseMode": "gcc-arm",
+            "browse": {
+                "path": [
+                    "${workspaceFolder}",
+                    "${env:PICO_SDK_PATH}/**"
+                ],
+                "limitSymbolsToIncludedHeaders": true,
+                "databaseFilename": ""
+            },
+            "includePath": [
+                "${workspaceFolder}/**",
+                "${env:PICO_SDK_PATH}/**"
+            ],
+            "forcedInclude": [
+                "${env:PICO_SDK_PATH}/external/pico_sdk_import.cmake",
+                "${env:PICO_SDK_PATH}/external/pico_sdk_headers.cmake"
+            ],
+            "name": "Win32",
+            "windowsSdkVersion": "10.0.22000.0",
+            "cStandard": "c11",
+            "cppStandard": "c++17",
+            "configurationProvider": "ms-vscode.cmake-tools"
+        }
+    ],
+    "version": 4
+}
