@@ -3,3 +3,4 @@
 */build/pico-sdk/*
 */build/generated/*
 */build/elf2uf2/*
+*/build/.cmake/*
