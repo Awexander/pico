@@ -2,23 +2,24 @@
 #include "pico/stdlib.h"
 #include "hardware/clocks.h"
 
-int main()
-{
+int main() {
     stdio_init_all();
 
     puts("Hello, world!");
-    if (true)
-    {
+    if (true) {
+        //print true
     }
-    else
-    {
+    else {
+        // print false
     }
 
-    do
-    {
+    do {
         // do something
+    } while (true);
+
+    while (true) {
+        // sleep_ms(10);
     }
-    while (true);
 
     return 0;
 }
